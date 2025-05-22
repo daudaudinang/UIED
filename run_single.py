@@ -51,21 +51,22 @@ if __name__ == '__main__':
                   'merge-contained-ele':True, 'merge-line-to-paragraph':False, 'remove-bar':True}
 
     # set input image path
-    input_path_img = 'data/input/497.jpg'
+    input_path_img = 'data/input/chat.jpg'
     output_root = 'data/output'
 
     resized_height = resize_height_by_longest_edge(input_path_img, resize_length=800)
     color_tips()
 
     is_ip = True
-    is_clf = False
-    is_ocr = True
-    is_merge = True
+    is_clf = True
+    is_ocr = False
+    is_merge = False
 
     if is_ocr:
         import detect_text.text_detection as text
         os.makedirs(pjoin(output_root, 'ocr'), exist_ok=True)
-        text.text_detection(input_path_img, output_root, show=True, method='google')
+        # Sử dụng PaddleOCR thay cho Google OCR
+        text.text_detection(input_path_img, output_root, show=True, method='paddle')
 
     if is_ip:
         import detect_compo.ip_region_proposal as ip
@@ -76,8 +77,8 @@ if __name__ == '__main__':
             classifier = {}
             from cnn.CNN import CNN
             # classifier['Image'] = CNN('Image')
-            classifier['Elements'] = CNN('Elements')
-            # classifier['Noise'] = CNN('Noise')
+            # classifier['Elements'] = CNN('Elements')
+            classifier['Noise'] = CNN('Noise')
         ip.compo_detection(input_path_img, output_root, key_params,
                            classifier=classifier, resize_by_height=resized_height, show=False)
 

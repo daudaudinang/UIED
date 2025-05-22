@@ -111,6 +111,9 @@ def text_cvt_orc_format_paddle(paddle_result):
     texts = []
     for i, line in enumerate(paddle_result):
         points = np.array(line[0])
+        # Bỏ qua box không hợp lệ (không phải mảng 2D hoặc không có 2 cột)
+        if points.ndim != 2 or points.shape[1] != 2:
+            continue
         location = {'left': int(min(points[:, 0])), 'top': int(min(points[:, 1])), 'right': int(max(points[:, 0])),
                     'bottom': int(max(points[:, 1]))}
         content = line[1][0]

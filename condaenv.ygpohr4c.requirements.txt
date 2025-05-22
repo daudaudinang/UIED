@@ -1,0 +1,4 @@
+keras==2.2.4
+paddleocr
+paddlepaddle
+tensorflow==1.14.0

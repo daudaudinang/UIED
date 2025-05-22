@@ -4,8 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4069649-920d-465f-ac6b-bac85007c2bb" name="Default" comment="">
+    <list default="true" id="b4069649-920d-465f-ac6b-bac85007c2bb" name="Default" comment="feat: Dd---=\\\\ư">
+      <change afterPath="$PROJECT_DIR$/condaenv.ygpohr4c.requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/input/chat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/output/ip/chat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/output/ip/chat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/cnn-rico-1.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/east_icdar2015_resnet_v1_50_rbox/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/east_icdar2015_resnet_v1_50_rbox/model.ckpt-49491.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/east_icdar2015_resnet_v1_50_rbox/model.ckpt-49491.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/east_icdar2015_resnet_v1_50_rbox/model.ckpt-49491.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/CONFIG.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/CONFIG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/ip/497.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/ip/497.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/ip/497.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/ip/497.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_compo/ip_region_proposal.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect_compo/ip_region_proposal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_text/text_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect_text/text_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_single.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_single.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +41,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="2ce0fe3c-0081-4dca-a6a6-b1219d650764" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="1dwCihBTog6GQX95sgxr7TpM6ZO" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -32,21 +53,20 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../UI2CODE/Element-Detection/merge.py" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\git_file\github\doing\UIED\data\demo" />
@@ -62,6 +82,7 @@
   <component name="RunManager" selected="Python.run_single">
     <configuration name="merge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UIED" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -84,6 +105,7 @@
     </configuration>
     <configuration name="merge2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UIED" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -106,6 +128,7 @@
     </configuration>
     <configuration name="run_single" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UIED" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -128,6 +151,7 @@
     </configuration>
     <configuration name="run_testing(Used for Adjusting)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UIED" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -150,6 +174,7 @@
     </configuration>
     <configuration name="text_detection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UIED" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -186,6 +211,14 @@
         <item itemvalue="Python.text_detection" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
+        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -251,6 +284,8 @@
       <workItem from="1631576239206" duration="805000" />
       <workItem from="1631584649434" duration="2272000" />
       <workItem from="1648024033251" duration="1883000" />
+      <workItem from="1747883187198" duration="1491000" />
+      <workItem from="1747898361294" duration="255000" />
     </task>
     <servers />
   </component>
